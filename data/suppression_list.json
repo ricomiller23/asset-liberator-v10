@@ -1,0 +1,183 @@
+{
+  "updatedAt": "2026-10-28T16:59:06.576Z",
+  "description": "Global permanent suppression and opt-out registry. Hard block enforced at runtime before any email transmission.",
+  "suppressedEmails": [
+    "solder@mcguirewoods.com",
+    "dfoley@mcguirewoods.com",
+    "jkrause@gibsondunn.com",
+    "firm@gibsondunn.com",
+    "securities@gibsondunn.com",
+    "mgibson@gibsondunn.com",
+    "swhitley@whitleylawgroup.com",
+    "swhitley@whitley-llp.com",
+    "swhitley@whitleyllp.com",
+    "alex.dillard@dillards.com",
+    "mhawkins@transcodetherapeutics.com",
+    "tfitzgerald@transcodetherapeutics.com",
+    "zmedarova@transcodetherapeutics.com",
+    "eric.wilson@brightlineinteractivenv.com",
+    "matthew.davis@brightlineinteractivenv.com",
+    "frank.brown@brightlineinteractivenv.com",
+    "dsmith@zeoscientifix.com",
+    "bmcdonald@mcdonaldlaw.com",
+    "steven.miller@inflectionpointacquisitionv.com",
+    "dennis.williams@inflectionpointacquisitionv.com",
+    "ryan.torres@inflectionpointacquisitionv.com",
+    "mbaudler@wsgr.com",
+    "aballard@wsgr.com"
+  ],
+  "suppressedDomains": [
+    "mcguirewoods.com",
+    "gibsondunn.com",
+    "whitleylawgroup.com",
+    "whitley-llp.com",
+    "whitleyllp.com",
+    "brightlineinteractivenv.com",
+    "brightlineinteractivenv.com",
+    "brightlineinteractivenv.com",
+    "inflectionpointacquisitionv.com",
+    "inflectionpointacquisitionv.com",
+    "inflectionpointacquisitionv.com"
+  ],
+  "optOutLog": [
+    {
+      "email": "mbaudler@wsgr.com",
+      "ccEmail": "aballard@wsgr.com",
+      "domain": "wsgr.com",
+      "recipient": "Mark Baudler, Esq. & April Ballard, Practice Manager (Wilson Sonsini Goodrich & Rosati)",
+      "ticker": "VANI",
+      "requestDate": "2026-10-28T09:13:46-07:00",
+      "reason": "Not Interested / Declined reply received from Practice Manager April Ballard <aballard@wsgr.com> on behalf of Mark Baudler, Esq. <mbaudler@wsgr.com> regarding Vivani Medical, Inc. (VANI): \"At this time Mark will need to decline, but we thank you for reaching out and for thinking of him.\""
+    },
+    {
+      "email": "solder@mcguirewoods.com",
+      "domain": "mcguirewoods.com",
+      "recipient": "Stephen E. Older, Esq. (McGuireWoods LLP)",
+      "ticker": "SING",
+      "requestDate": "2026-10-09T12:44:00-07:00",
+      "reason": "Opt-out / stop request received (Fourth email today alert). Permanent firm-wide suppression enforced."
+    },
+    {
+      "email": "*@gibsondunn.com",
+      "domain": "gibsondunn.com",
+      "recipient": "Gibson, Dunn & Crutcher LLP (333 South Grand Avenue, Los Angeles, CA 90071-3197)",
+      "requestDate": "2026-10-09T20:05:22.174Z",
+      "reason": "Firm-wide exclusion requested by leadership: Gibson, Dunn & Crutcher LLP. Permanent domain-wide suppression active."
+    },
+    {
+      "email": "swhitley@whitley-llp.com",
+      "domains": [
+        "whitleylawgroup.com",
+        "whitley-llp.com",
+        "whitleyllp.com"
+      ],
+      "recipient": "Samuel E. Whitley, Esq. (Managing Partner, Whitley Law Group / Whitley LLP)",
+      "requestDate": "2026-10-09T20:51:45.397Z",
+      "reason": "Notice received 2026-10-09: Managing Partner Samuel Whitley explicitly stated they do not represent Optec International, Inc. Permanent domain-wide suppression active across whitleylawgroup.com, whitley-llp.com, and whitleyllp.com."
+    },
+    {
+      "email": "jkrause@gibsondunn.com",
+      "domain": "gibsondunn.com",
+      "recipient": "Jeffrey C. Krause, Partner (Gibson, Dunn & Crutcher LLP, 333 South Grand Avenue, Los Angeles, CA 90071-3197, +1 213.229.7995)",
+      "ticker": "LESL",
+      "requestDate": "2026-10-09T13:51:07-07:00",
+      "reason": "Direct cease-and-desist (\"NO MORE SPAM\") received following LESL outreach. Enforced permanent firm-wide suppression and zero-contact embargo across gibsondunn.com."
+    },
+    {
+      "email": "alex.dillard@dillards.com",
+      "domain": "dillards.com",
+      "recipient": "Alex Dillard (Dillard's, Inc.)",
+      "ticker": "DDS",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: 550 5.1.1 User Unknown. Address permanently suppressed."
+    },
+    {
+      "email": "mhawkins@transcodetherapeutics.com",
+      "domain": "transcodetherapeutics.com",
+      "recipient": "Michael Hawkins (TransCode Therapeutics)",
+      "ticker": "RNAZ",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: 550 5.4.1 Recipient address rejected: Access denied. Address permanently suppressed."
+    },
+    {
+      "email": "tfitzgerald@transcodetherapeutics.com",
+      "domain": "transcodetherapeutics.com",
+      "recipient": "Thomas A. Fitzgerald (TransCode Therapeutics)",
+      "ticker": "RNAZ",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: 550 5.4.1 Recipient address rejected: Access denied. Address permanently suppressed."
+    },
+    {
+      "email": "zmedarova@transcodetherapeutics.com",
+      "domain": "transcodetherapeutics.com",
+      "recipient": "Zdravka Medarova, Ph.D. (TransCode Therapeutics)",
+      "ticker": "RNAZ",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: 550 5.4.1 Recipient address rejected: Access denied. Address permanently suppressed."
+    },
+    {
+      "email": "eric.wilson@brightlineinteractivenv.com",
+      "domain": "brightlineinteractivenv.com",
+      "recipient": "Eric Wilson (Brightline Interactive)",
+      "ticker": "BTLN",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: DNS Error: NXDOMAIN non-existent domain. Address permanently suppressed."
+    },
+    {
+      "email": "matthew.davis@brightlineinteractivenv.com",
+      "domain": "brightlineinteractivenv.com",
+      "recipient": "Matthew Davis (Brightline Interactive)",
+      "ticker": "BTLN",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: DNS Error: NXDOMAIN non-existent domain. Address permanently suppressed."
+    },
+    {
+      "email": "frank.brown@brightlineinteractivenv.com",
+      "domain": "brightlineinteractivenv.com",
+      "recipient": "Frank Brown (Brightline Interactive)",
+      "ticker": "BTLN",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: DNS Error: NXDOMAIN non-existent domain. Address permanently suppressed."
+    },
+    {
+      "email": "dsmith@zeoscientifix.com",
+      "domain": "zeoscientifix.com",
+      "recipient": "David M. Smith (Zeo ScientifiX)",
+      "ticker": "ZEOX",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: 550 5.4.1 Recipient address rejected: Access denied. Address permanently suppressed."
+    },
+    {
+      "email": "bmcdonald@mcdonaldlaw.com",
+      "domain": "mcdonaldlaw.com",
+      "recipient": "Brian McDonald, Esq. (McDonald Law PLLC)",
+      "ticker": "ZEOX",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: 550 permanent failure / recipient rejected. Address permanently suppressed."
+    },
+    {
+      "email": "steven.miller@inflectionpointacquisitionv.com",
+      "domain": "inflectionpointacquisitionv.com",
+      "recipient": "Steven Miller (Inflection Point Acquisition V)",
+      "ticker": "IPEX",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: DNS Error: NXDOMAIN non-existent domain. Address permanently suppressed."
+    },
+    {
+      "email": "dennis.williams@inflectionpointacquisitionv.com",
+      "domain": "inflectionpointacquisitionv.com",
+      "recipient": "Dennis Williams (Inflection Point Acquisition V)",
+      "ticker": "IPEX",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: DNS Error: NXDOMAIN non-existent domain. Address permanently suppressed."
+    },
+    {
+      "email": "ryan.torres@inflectionpointacquisitionv.com",
+      "domain": "inflectionpointacquisitionv.com",
+      "recipient": "Ryan Torres (Inflection Point Acquisition V)",
+      "ticker": "IPEX",
+      "requestDate": "2026-10-16T08:56:00-07:00",
+      "reason": "Automated bounce detection: DNS Error: NXDOMAIN non-existent domain. Address permanently suppressed."
+    }
+  ]
+}
