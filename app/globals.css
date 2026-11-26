@@ -57,17 +57,15 @@ body {
    ========================================================================== */
 
 .perspective-1000 {
-  perspective: 1000px;
-  transform-style: preserve-3d;
+  perspective: none;
 }
 
 .perspective-1200 {
-  perspective: 1200px;
-  transform-style: preserve-3d;
+  perspective: none;
 }
 
 .preserve-3d {
-  transform-style: preserve-3d;
+  transform-style: flat;
 }
 
 /* Base Identity Transforms to prevent reflow / stacking context shifts */
@@ -94,14 +92,14 @@ body {
     0 16px 36px -10px rgba(0, 0, 0, 0.85),
     0 0 1px 1px rgba(245, 211, 120, 0.14),
     inset 0 1px 1px rgba(245, 211, 120, 0.28);
-  transform-style: preserve-3d;
+  transform-style: flat;
   transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
               box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), 
               border-color 0.25s ease;
 }
 
 .card-3d:hover {
-  transform: perspective(1000px) translateY(-8px) rotateX(2.5deg) rotateY(-1.2deg) scale3d(1.018, 1.018, 1.018);
+  transform: translateY(-2px);
   border-color: var(--border-gold-medium);
   box-shadow: 
     0 32px 64px -16px rgba(0, 0, 0, 0.96),
@@ -209,12 +207,12 @@ body {
     0 12px 28px -8px rgba(0, 0, 0, 0.8),
     0 0 16px rgba(245, 211, 120, 0.12),
     inset 0 1px 1px rgba(245, 211, 120, 0.25);
-  transform-style: preserve-3d;
+  transform-style: flat;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .kpi-podium:hover {
-  transform: translateY(-4px) translateZ(10px);
+  transform: translateY(-2px);
   border-color: var(--border-gold-medium);
   box-shadow: 
     0 24px 48px -12px rgba(0, 0, 0, 0.92),
@@ -231,7 +229,7 @@ body {
   box-shadow: 
     0 4px 12px rgba(0, 0, 0, 0.6),
     inset 0 1px 0 rgba(255, 255, 255, 0.35);
-  transform: translateZ(16px);
+  transform: none;
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -262,7 +260,7 @@ body {
   justify-content: center;
   z-index: 50;
   padding: 16px;
-  perspective: 1200px;
+  perspective: none;
 }
 
 .modal-content-3d {
@@ -273,7 +271,7 @@ body {
     0 32px 64px -16px rgba(0, 0, 0, 0.95),
     0 0 32px rgba(245, 211, 120, 0.22),
     inset 0 1px 1px rgba(245, 211, 120, 0.35);
-  transform-style: preserve-3d;
+  transform-style: flat;
   max-height: 90vh;
   overflow-y: auto;
 }
